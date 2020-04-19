@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+.form-style {
+	marign: 10px;
+	display: table;
+}
+
+.br {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+html {
+	background-image: linear-gradient( to bottom, #778898 0%, #A9A9A9 8% );
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input[type=text] {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+input[type=Submit], button {
+	color: white;
+	background: #447AB7;
+	border-style: outset;
+	border-color: #447AB7;
+	height: 25px;
+	width: 250px;
+}
+
+label, h1 {
+	margin-left: 20px;
+}
+
+.string {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: top;
+    width: 80px;
+}
+
+.centerAlign {
+	align: center;
+	text-align: center;
+}

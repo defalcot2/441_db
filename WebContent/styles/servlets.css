@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+table#transaction, table#cardtrading {
+	background-color: #A9A9A9;
+}
+
+table, th, td {
+	border: 1px solid black;
+	color: black;
+	text-align: center;
+}
+
+.divider {
+	width: 5px;
+}
+
+.input-left {
+	float: left;
+}
+
+.input-right {
+	float: right;
+}
+
+input[type=Submit], button {
+	color: white;
+	background: #447AB7;
+	border-style: outset;
+	border-color: #447AB7;
+	height: 25px;
+	width: auto;
+}
+
+html {
+	background-color: #778898;
+}
